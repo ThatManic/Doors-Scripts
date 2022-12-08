@@ -1,0 +1,5 @@
+local Door666=workspace.CurrentRooms[game.Players.LocalPlayer:GetAttribute("CurrentRoom")]
+        Door666.Door.Sign.Stinker.Text="666"
+        Door666.Door.Sign.Stinker.Highlight.Text="666"
+        Door666.Door.Sign.Stinker.Shadow.Text="666"
+firesignal(game.ReplicatedStorage.Bricks.UseEventModule.OnClientEvent, "tryp", workspace.CurrentRooms[game.Players.LocalPlayer:GetAttribute("CurrentRoom")], 25)
